@@ -1,12 +1,12 @@
 /* Estilo General*/
 body{
   margin: 10px;
-  padding: 50%px;
+  padding: 50px;
   font-family: monospace;
 }
 /* Estilo Del texto (Botones)*/
 a{
-  color: #F9C20A;
+  color: #CD163F;
   text-decoration: none;
 }
 /* Estilo de Viñetas*/
@@ -16,12 +16,17 @@ ul{
 
 /*Flexbox*/
 
+nav{
+  display: flex;
+  justify-content: center;
+}
+
 ul{
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 20% ;
+  gap: 50px ;
 }
 
 /*Hover*/
@@ -35,7 +40,7 @@ a:hover{
 /* Personalización*/
 
 ul {
-  background-color: #CD163F;
-  
+  background-color: #E6E7E8;
+  box-shadow: 0px 2px 5px gray;
   padding: 10px;
 }
