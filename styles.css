@@ -1,0 +1,41 @@
+/* Estilo General*/
+body{
+  margin: 10px;
+  padding: 50%px;
+  font-family: monospace;
+}
+/* Estilo Del texto (Botones)*/
+a{
+  color: #F9C20A;
+  text-decoration: none;
+}
+/* Estilo de Viñetas*/
+ul{
+  list-style: none;
+}
+
+/*Flexbox*/
+
+ul{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 20% ;
+}
+
+/*Hover*/
+
+a:hover{
+  color: #F58025;
+  transform: scale(1.2);
+  transition: color 0.3s ease;
+}
+
+/* Personalización*/
+
+ul {
+  background-color: #CD163F;
+  
+  padding: 10px;
+}
